@@ -1,0 +1,142 @@
+header {
+  width: 850 px;
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.div1 {
+  background-color: cadetblue;
+  height: 400px;
+  width: 846px;
+  border-left: white 2px solid;
+  border-right: white 2px solid;
+  border-top: white 2px solid;
+  margin: auto;
+  position: relative;
+}
+.div2 {
+  background-color: mistyrose;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 22px;
+  bottom: -227px;
+  border: black solid 2px;
+
+  z-index: 1;
+}
+
+.div3 {
+  background-color: white;
+  border-left: lightgray 1px solid;
+  border-right: lightgray 1px solid;
+  border-bottom: lightgray 1px solid;
+  height: 50px;
+  width: 846px;
+  top: 1px;
+  left: 170px;
+  position: relative;
+}
+
+#nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  left: 15%;
+  bottom: 25px;
+}
+header a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: pink;
+  color: black;
+  font-family: Georgia;
+  border-radius: 8px;
+  border: 2px black solid;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  top: -155px;
+  left: 275px;
+  display: inline;
+  position: relative;
+}
+
+.button2 {
+  background-color: pink;
+  position: relative;
+}
+.button3 {
+  background-color: pink;
+  position: relative;
+}
+
+body {
+  color: black;
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: center;
+}
+
+.columns {
+  top: -84px;
+  position: relative;
+  columns: 2;
+  column-gap: 10px;
+  margin: auto;
+}
+
+.left-column {
+  background-color: plum;
+  width: 324px;
+  height: 300px;
+  left: 170px;
+  bottom: -71px;
+  border: black solid 2px;
+  position: relative;
+}
+.left-column h1 {
+  font-style: italic;
+}
+.div4 {
+  background-color: lightpink;
+  width: 300px;
+  height: 200px;
+  left: 185px;
+  top: -132px;
+  border: black solid 1px;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.right-column {
+  background-color: palevioletred;
+  width: 508px;
+  height: 300px;
+  right: 95px;
+  bottom: -8px;
+  border: black solid 2px;
+  position: relative;
+}
+
+.div5 {
+  background-color: papayawhip;
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  top: -223px;
+  right: 75px;
+  position: relative;
+}
